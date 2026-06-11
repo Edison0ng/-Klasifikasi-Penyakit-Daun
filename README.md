@@ -40,17 +40,19 @@ Dataset yang digunakan diambil langsung dari platform Kaggle, yang mengelompokka
 1. **Clone repositori ini ke dalam direktori lokal komputer:**
    ```bash
    git clone [https://github.com/Edison0ng/-Klasifikasi-Penyakit-Daun.git](https://github.com/Edison0ng/-Klasifikasi-Penyakit-Daun.git)
-   cd -Klasifikasi-Penyakit-Daun '''
+   cd -Klasifikasi-Penyakit-Daun 
 
 2. Buat dan aktifkan virtual environment
-   '''bash
+   ```bash
    python -m venv env
    source env/bin/activate  # Untuk pengguna Linux/Mac
    env\Scripts\activate     # Untuk pengguna Windows
-   '''
+   
 3. Instal seluruh dependensi yang terdaftar di requirements.txt
-   '''bash
+   ```bash
    pip install -r requirements.txt
-   '''
+   
 4. Jalankan aplikasi utama
+   ```bash
    python APP_Gabungan.py
+   

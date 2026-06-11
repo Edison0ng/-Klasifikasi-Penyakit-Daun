@@ -29,7 +29,7 @@ Dataset yang digunakan diambil langsung dari platform Kaggle, yang mengelompokka
 ## 🛠️ Teknologi & Pustaka Utama
 * **Bahasa Pemrograman:** Python
 * **Antarmuka Grafis (GUI):** Tkinter
-* **Pengolahan Citra & Fitur:** OpenCV (`opencv-python`), Scikit-Image (`scikit-image`)
+* **Pengolahan Citra & Fitur:** OpenCV, Scikit-Image
 * **Pemrosesan & Manajemen Data:** NumPy, Pandas
 * **Pemodelan Machine Learning:** Scikit-Learn
 * **Visualisasi Data:** Matplotlib, Seaborn
@@ -40,4 +40,17 @@ Dataset yang digunakan diambil langsung dari platform Kaggle, yang mengelompokka
 1. **Clone repositori ini ke dalam direktori lokal komputer:**
    ```bash
    git clone [https://github.com/Edison0ng/-Klasifikasi-Penyakit-Daun.git](https://github.com/Edison0ng/-Klasifikasi-Penyakit-Daun.git)
-   cd -Klasifikasi-Penyakit-Daun
+   cd -Klasifikasi-Penyakit-Daun '''
+
+2. Buat dan aktifkan virtual environment
+   '''bash
+   python -m venv env
+   source env/bin/activate  # Untuk pengguna Linux/Mac
+   env\Scripts\activate     # Untuk pengguna Windows
+   '''
+3. Instal seluruh dependensi yang terdaftar di requirements.txt
+   '''bash
+   pip install -r requirements.txt
+   '''
+4. Jalankan aplikasi utama
+   python APP_Gabungan.py
